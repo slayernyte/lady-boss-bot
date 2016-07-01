@@ -34,7 +34,7 @@ sassy lady boss
  - **One-Click Heroku**
        Click this button:
 
-       [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+       [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/thecodegoddess/lady-boss-bot))
 
  - **Manual Heroku**
     *  Install [Heroku toolbelt](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
