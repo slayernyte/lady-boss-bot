@@ -1,4 +1,4 @@
-var LadyBossBot = require('./LadyBossBot');
+var LadyBossBot = require('./ladyBossBot');
 var nconf = require('nconf');
 
 nconf.add('config', {type: 'file', file: './configBot.json'});
