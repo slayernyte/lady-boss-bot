@@ -9,5 +9,5 @@ try {
   this.ladyBossBot = new LadyBossBot(tokenSlack);
   this.ladyBossBot.run();
 } catch (error) {
-  console.log('Bot failed' + error);
+  console.log('Bot failed bDLY' + error);
 }
