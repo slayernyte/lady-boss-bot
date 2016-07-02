@@ -1,4 +1,4 @@
-var LadyBossBot = require('./LadyBossBot');
+var LadyBossBot = require('./ladyBossBot');
 var nconf = require('nconf');
 
 nconf.add('config', {type: 'file', file: './configBot.json'});
@@ -9,5 +9,5 @@ try {
   this.ladyBossBot = new LadyBossBot(tokenSlack);
   this.ladyBossBot.run();
 } catch (error) {
-  console.log('Bot failed' + error);
+  console.log('Bot failed bDLY' + error);
 }
