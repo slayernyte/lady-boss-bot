@@ -64,10 +64,10 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
-// if (!process.env.token) {
-//     console.log('Error: Specify token in environment');
-//     process.exit(1);
-// }
+if (!process.env.TOKEN_SLACK) {
+    console.log('Error: Specify token in environment');
+    process.exit(1);
+}
 
 var Botkit = require('../lib/Botkit.js');
 var os = require('os');
@@ -79,7 +79,7 @@ var controller = Botkit.slackbot({
 
 var bot = controller.spawn({
   // token: process.env.token
-  token: "xoxb-42902998438-Ey4Z0ytirlyg9zGHwdF2rRjq"
+  token: process.env.TOKEN_SLACK
 }).startRTM();
 
 
