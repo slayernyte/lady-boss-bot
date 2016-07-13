@@ -63,7 +63,7 @@
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
+console.log(process.env);
 if (!process.env.TOKEN_SLACK) {
     console.log('Error: Specify token in environment');
     process.exit(1);
