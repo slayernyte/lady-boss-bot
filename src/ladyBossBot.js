@@ -77,11 +77,15 @@ var controller = Botkit.slackbot({
 	port : process.env.PORT
 });
 
+
+
 var bot = controller.spawn({
   // token: process.env.token
   token: "xoxb-42902998438-Ey4Z0ytirlyg9zGHwdF2rRjq"
 }).startRTM();
 
+
+controller.setupWebserver(process.env.PORT);
 
 controller.hears(['hello', 'hi'], 'direct_message,direct_mention,mention', function(bot, message) {
 
