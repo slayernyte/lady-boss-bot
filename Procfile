@@ -1,1 +1,1 @@
-web: node src/ladyBossBot.js
+worker: node src/ladyBossBot.js
