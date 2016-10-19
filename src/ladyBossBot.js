@@ -77,7 +77,7 @@ var controller = Botkit.slackbot({
 	port : process.env.PORT
 });
 
-
+console.log(process.env.TOKEN_SLACK);
 
 var bot = controller.spawn({
   token: process.env.TOKEN_SLACK
